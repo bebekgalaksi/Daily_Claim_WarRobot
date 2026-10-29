@@ -48,6 +48,7 @@ func loadEnv() Config {
 		".env",
 		filepath.Join(exeDir, ".env"),
 		filepath.Join(home, ".config/war-robots-autoclaim/.env"),
+		filepath.Join(home, "Documents/War_Robot_Daily_Claim/.env"),
 		filepath.Join(home, "Documents/ngatur laptop/.env"),
 		"/home/joo/war-robots-autoclaim/.env",
 	}
