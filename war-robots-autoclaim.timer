@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for War Robots Daily Free Item Auto-Claimer
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=6h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

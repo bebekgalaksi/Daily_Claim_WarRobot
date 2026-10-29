@@ -1,0 +1,30 @@
+# Environment and sensitive credentials
+.env
+.env.*
+!.env.example
+*.env
+
+# Session and cookie caches
+session.json
+*.cookie
+cookies.txt
+*.sqlite
+*.db
+
+# Compiled binaries
+war-robots-autoclaim
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

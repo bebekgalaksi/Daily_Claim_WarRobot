@@ -1,0 +1,13 @@
+[Unit]
+Description=War Robots Daily Free Item Auto-Claimer
+After=network-online.target graphical-session.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/jogifergio/.local/bin/war-robots-autoclaim
+Environment="DISPLAY=:0"
+Environment="DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus"
+
+[Install]
+WantedBy=default.target
